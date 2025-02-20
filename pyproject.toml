@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "digitar"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "digitar", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.2.3"
+pedalboard = "^0.9.16"
+pydantic = "^2.10.6"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
